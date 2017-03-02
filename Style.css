@@ -1,0 +1,85 @@
+﻿html {
+    background-image: url("Resources/Background.jpg");
+    background-color: #cccccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+header, div, nav, section, footer {
+    display: block;
+}
+
+
+body {
+    line-height: 1.5;
+}
+
+fieldset {
+    border: solid 1px #000000;
+    background-color: #808080 !important;
+}
+
+
+header {
+    text-align: left;
+    color: chocolate;
+    font-size: 100%;
+}
+
+p {
+    color: #231c1c;
+    margin-left: auto;
+}
+
+h1 {
+    color: #ff6a00;
+    margin-left: auto;
+
+}
+h2 {
+    color: chocolate;
+    margin-left: auto;
+}
+
+li {
+    color: #231c1c;
+    margin-left: auto;
+}
+
+    li::before {
+        color:#231c1c;
+}
+
+
+h3 {
+    color: chocolate;
+    margin-left: auto;
+}
+
+
+
+h4 {
+    color: darkgreen;
+    margin-left: auto
+}
+
+footer {
+    color: black;
+    margin-left: auto
+}
+
+
+
+
+
+ol, ul {
+    color: #231c1c;
+    list-style: circle;
+    
+}
